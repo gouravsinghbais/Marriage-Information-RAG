@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+
+# Secrets — never commit
+.env
+.env.example
+.streamlit/secrets.toml
+
+# Vector DB & temp files
+data/chroma_db/
+data/tmp/
+.streamlit/
+
+.DS_Store
